@@ -1,9 +1,9 @@
 // Suma sin bucle (repitiendo el codigo de forma manual)
 var suma = 0;
-suma = suma +1;
-suma = suma +2;
-suma = suma +3;
-suma = suma +4;
+//suma = suma +1;
+//suma = suma +2;
+//suma = suma +3;
+//suma = suma +4;
 console.log (suma)
 
 //  FOR
@@ -22,3 +22,10 @@ while (suma < 3){
 }
 // Se utiliza cuando no sabemos la cantidad de pasos que necesitaremos para finalizar la ejecucion.
 // Se repetira hasta que la condicion o variable (si no entiendo mal) que establecimos se cumpla, en este caso es "3" cuando lleag a 3 finaliza la ejecucion.
+
+// FOR LET
+for (let i = 0; i < 5; i++) {
+    suma = suma + i;
+    console.log('Variable de iteración: ', i);
+ }
+ console.log('Variable suma: ', suma);
